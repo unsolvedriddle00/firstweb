@@ -1,0 +1,131 @@
+/*==============================================Body Design========================================*/
+body{margin:0px;}
+/*==============================================Body Design Completed==============================*/
+
+
+/*Div1 ==========================================Header Design===================================== */
+	.header{background-color: blue;
+    width:100%;
+    height: 3.5%;
+    text-align: right;}
+/*Div1 ==============================Header Design Complete==========================================*/
+
+
+/*Div2 =============================Logo & Company Name Design==========================================*/
+.Div2{width:100%; height:20%;}
+#CnLOGO{width:29%;
+		margin:auto;}
+		#CNLOGO img{Height:100%;
+					width:60%;
+				margin-left: 10%;
+				margin-bottom: -14%;
+			margin-top: -2.5%;}
+		#CnLOGO h1{margin-right: 5%;
+		color:blue;}
+/*Div2 ========================Logo & Company Name Design Complete======================================*/
+
+
+/* ====================================Naviigation Bar Design=========================================*/
+nav{ background-color: aqua;
+	height:4%;
+	width:100%;}
+nav li{float:left;
+	margin:5px 10px 5px 10px;
+    border-radius: 5px;
+    list-style-type: none;}
+/* ===========================================Navigation Bar Design Complete============================*/
+
+
+		/*--Div3 ======Main Image Slider - Inliine CSS Used===========*/
+		/*--Div3 ======Main Image Slider - Inliine CSS Used===========*/
+
+
+/*Div4 ==============================Company Logo & About Company Design================================= */
+	.Div4{height:120%;
+	background-color:#ffffff;
+	border-radius: 1%;
+	margin-left: 2%;
+	margin-right: 2%;}
+			.Div4 div{float:left;}
+			#about img{width:100%;
+			height:50%;
+			margin-top:30%;
+			margin-left: -10%;
+		}
+/*Div4 =============================Company Logo & About Company Design Complete========================== */
+
+
+/*Div5 =============================Customer Company Table Design=========================================*/
+	.Div5{background: url('bgimgtable.png');
+		width:96%;
+		height:65%;
+		margin-left:2%;
+		}
+		table,th,td{border-collapse: collapse;
+		border: 1px solid seashell ;
+		margin: auto;
+		color: #ffffff;}
+			
+		.Div5 h2{text-align: center;
+		color: #ffffff;}
+/*Div5 =============================Customer Company Table Design=========================================*/
+
+
+/*Div6=============================Company Founder Year and Number of Customers Design======================*/
+.Div6{border-radius: 10px;
+	background-color:purple;
+	width:45%;
+	height:35%;
+		margin:auto;
+	margin-top: 2%;}
+ #found{float:left;
+		 padding:10px;
+		margin-left: 1%;}
+/*Div6===========================Company Founder Year and Number of Customers Design Complete=============*/
+
+
+/*Div7===================== Company Plants and Plant Image Design==========================================*/
+.Div7{width:100%;
+	height:80%;
+margin:auto;}
+span img{float:left;
+		width:27%;
+	height:80%;
+	margin-left: 5%;
+border-radius: 10%;}
+/*Div7===================== Company Plants and Plant Image Design Complete===================================*/
+
+
+/*Div8======================================Company Plants Design============================================*/
+.Div8{height:20%;
+	width:100%;}
+.Div8 div{float:left;
+	margin:auto;}
+/*Div8============================ Company Plants Design Complete============================================*/
+
+
+/*Div9====================================About and Contact of the Company Design============================*/
+.Div9{width:100%;
+	height:62%;
+	margin:auto;
+	background-color: rgb(26, 23, 23);}
+.Div9  {display: grid;
+		grid-template-columns: 30% 70%;}
+		#about{text-align: justify;
+		color:azure;
+	margin-left: 1%;}
+			#icon{color: azure;
+			margin-left: 28%;
+		padding:.3%;}
+		#icon img{width:4%;
+			height: 4%;
+			padding: .5%;}
+/*Div9============================= About and Contact of the Company Design Complete=========================*/
+
+
+/*Div10================================ Footer Design=======================================================*/
+div footer{background-color:aqua;
+	text-align:center;
+	height:4%;
+		}
+/*Div10================================ Footer Design Complete=======================*/
