@@ -41,7 +41,7 @@ nav li{float:left;
 
 
 /*Div4 ==============================Company Logo & About Company Design================================= */
-	.Div4{height:140%;
+	.Div4{height:160%;
 	background-color:#ffffff;
 	border-radius: 1%;
 	margin-left: 2%;
@@ -75,7 +75,7 @@ nav li{float:left;
 .Div6{border-radius: 10px;
 	background-color:purple;
 	width:45%;
-	height:28%;
+	height:25%;
 		margin:auto;
 	margin-top: 2%;}
  #found{float:left;
@@ -126,6 +126,6 @@ border-radius: 10%;}
 /*Div10================================ Footer Design=======================================================*/
 div footer{background-color:aqua;
 	text-align:center;
-	height:7%;
+	height:10%;
 		}
 /*Div10================================ Footer Design Complete=======================*/
