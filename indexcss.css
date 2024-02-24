@@ -12,14 +12,14 @@ body{margin:0px;}
 
 
 /*Div2 =============================Logo & Company Name Design==========================================*/
-.Div2{width:100%; height:20%;}
+.Div2{width:100%; height:23%;}
 #CnLOGO{width:29%;
 		margin:auto;}
 		#CNLOGO img{Height:100%;
 					width:60%;
 				margin-left: 10%;
 				margin-bottom: -14%;
-			margin-top: -2.5%;}
+			margin-top: -2%;}
 		#CnLOGO h1{margin-right: 5%;
 		color:blue;}
 /*Div2 ========================Logo & Company Name Design Complete======================================*/
