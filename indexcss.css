@@ -5,27 +5,35 @@ body {
   background-color: bisque;
 }
 .topdiv {
-  width: 100vw;
+  width: 100%;
   height: 3vh;
   background-color: brown;
   display: flex;
   flex-direction: row;
   justify-content: right;
+  color: white;
+  font-size: medium;
+  align-items: center;
 }
 .topdiv a {
   padding-right: 5vw;
+  color: white;
+  text-decoration: none;
 }
 .navcontainer > nav > ul {
   display: flex;
   flex-direction: row;
   background-color: yellow;
   height: 7vh;
-  width: 96.8vw;
   list-style-type: none;
   margin-top: 0vh;
+  position: relative;
+  flex-wrap: wrap;
+  font-size: 1.5vw;
 }
 nav > ul > li {
-  padding-top: 2vh;
+  /* padding-top: 1vh; */
+  align-content: center;
   padding-left: 4vw;
 }
 nav > ul > li > a {
@@ -39,6 +47,7 @@ nav > ul > li > a:hover {
   height: 15vw;
   background-color: aqua;
   margin: auto;
+  position: relative;
 }
 .logocontainer > img {
   width: 15vw;
@@ -48,6 +57,7 @@ h1 {
   text-align: center;
   color: rgb(42, 91, 165);
   text-decoration: underline;
+  font-size: 3vw;
 }
 .clouserdiv {
   width: 80vw;
@@ -87,6 +97,7 @@ h1 {
   text-align: justify;
   padding: 3vw;
   padding-top: 0.8vh;
+  /* font-size: 1.2vw; */
 }
 .clientdiv {
   margin: auto;
@@ -214,7 +225,7 @@ td {
   color: white;
 }
 .copy {
-  width: 100vw;
+  width: 100%;
   height: 2.7vh;
   background-color: aqua;
   margin-top: 0;
@@ -222,4 +233,95 @@ td {
 .copy > p {
   text-align: center;
   font-size: smaller;
+}
+
+@media (max-width: 500px) {
+  .topdiv {
+    font-size: small;
+    justify-content: center;
+  }
+  .navcontainer > nav > ul > li {
+    display: none;
+  }
+  .aboutcontainer {
+    height: 120vh;
+    width: 70vw;
+    flex-direction: column;
+  }
+  .firmimage {
+    width: 70vw;
+    height: 40vh;
+  }
+  .firmimage > img {
+    width: 70vw;
+    height: 40vh;
+  }
+  .aboutfirm {
+    width: 70vw;
+    height: 80vh;
+  }
+  .aboutfirm > p {
+    font-size: 3vw;
+  }
+  .clientdiv {
+    display: none;
+  }
+  .companydata {
+    flex-direction: column;
+    height: 80vh;
+  }
+  .companydata > div {
+    width: 40vw;
+  }
+  .plantimage {
+    flex-direction: column;
+    height: 120vh;
+    width: 70vw;
+  }
+  .plantimage > div {
+    width: 70vw;
+  }
+  .plantimage > div > img {
+    width: 70vw;
+  }
+  .lastcontainer {
+    height: 150vh;
+    width: 100%;
+    flex-direction: column;
+  }
+  .lastcontainer > .about {
+    border-right: none;
+    border-bottom: 0.3vw solid white;
+    margin-top: 1.5vh;
+    height: 50vh;
+    width: 80vw;
+  }
+  .contact {
+    height: 80vh;
+  }
+  .contactus {
+    flex-direction: column;
+    height: 70vh;
+    width: 90vw;
+  }
+
+  .contactus > .googlemap {
+    height: 30vh;
+    width: 70vw;
+  }
+
+  #cont {
+    height: 30vh;
+    width: 80vw;
+  }
+  .contactcontent > div {
+    font-size: small;
+    height: 2.5vh;
+  }
+
+  .copy p {
+    font-size: x-small;
+    text-align: center;
+    margin-top: 2vh;
+  }
 }
